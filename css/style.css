@@ -2,6 +2,9 @@ body {
   font-family: "Montserrat", sans-serif;
   background-color: #f5f7fa;
 }
+a { 
+  text-decoration: none;
+}
 
 .main-container {
   display: flex;
@@ -87,11 +90,22 @@ body {
   margin-left: 9px;
 }
 .my-projects-link {
+  padding: 5px;
   color: #595959;
+  background-color: transparent;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
+}
+.my-projects-link:hover,
+.my-projects-link:focus {
+  background-color: #909090;
+  color: whitesmoke;
+  transition: background-color 500ms cubic-bezier(0.075, 0.82, 0.165, 1), color 250ms cubic-bezier(0.075, 0.82, 0.165, 1) 100ms;
+}
+.lorem{
+  margin-left: 1px;
 }
 .my-projects-bracket {
   color: #000;
@@ -227,17 +241,32 @@ body {
   margin-left: 40px;
 }
 .contacts-section-typ {
+  padding: 5px;;
   color: #b2b2b2;
+  background-color: transparent;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
 }
-
+.contacts-section-typ:hover,
+.contacts-section-typ:focus {
+  background-color: #909090;
+  color: whitesmoke;
+  transition: background-color 500ms cubic-bezier(0.075, 0.82, 0.165, 1), color 250ms cubic-bezier(0.075, 0.82, 0.165, 1) 100ms;
+}
 .contacts-section-lnk {
+  padding: 5px;;
   color: #b2b2b2;
+  background-color: transparent;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
+}
+.contacts-section-lnk:hover,
+.contacts-section-lnk:focus {
+  background-color: #909090;
+  color: whitesmoke;
+  transition: background-color 500ms cubic-bezier(0.075, 0.82, 0.165, 1), color 250ms cubic-bezier(0.075, 0.82, 0.165, 1) 100ms;
 }
 
 .tech-skills-list {
