@@ -14,7 +14,7 @@ a {
 .main-container {
   display: flex;
   flex-direction: row;
-  background: #fff;
+  background: whitesmoke;
   margin: 40px auto;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
   width: 1200px;
@@ -25,7 +25,7 @@ a {
   display: flex;
   flex-direction: row-reverse;
 
-  padding: 100px 90px;
+  /* padding: 100px 90px; */
 }
 
 .main-contant-title {
@@ -42,7 +42,10 @@ a {
   line-height: 17px;
 }
 /* About me section */
-
+.about-me{
+  margin-top: 50px;
+  margin-left: 50px;
+}
 .about-me-section {
   margin-bottom: 40px;
   margin-right: 200px;
@@ -143,10 +146,11 @@ a {
   color: #fb6d3a;
 }
 .my-work-experience-date {
-  color: #a8a8a8;
-  font-style: normal;
+  color: #64646497;
+  font-style: inherit;
+  font-weight: 900;
   font-weight: normal;
-  font-size: 12px;
+  /* font-size: 13px; */
   line-height: 15px;
   margin: 0 0 10px 0;
 }
@@ -219,7 +223,7 @@ a {
   width: 350px;
   display: inline-block;
   flex-direction: column;
-  background: rgb(52, 52, 52);
+  background: rgba(58, 41, 15, 0.5);
   color: #fff;
   /* border: 340px; */
   padding: 70px;
@@ -273,31 +277,33 @@ a {
 }
 .contacts-section-typ {
   padding: 3px 15px;
-  color: #b2b2b2;
+  color: #ffffffb8;
   background-color: transparent;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
+  transition: background-color 500ms cubic-bezier(0.075, 0.82, 0.165, 1), color 250ms cubic-bezier(0.075, 0.82, 0.165, 1) 100ms;
 }
 .contacts-section-typ:hover,
 .contacts-section-typ:focus {
-  background-color: #909090;
+  background-color: #626262;
   color: whitesmoke;
-  transition: background-color 500ms cubic-bezier(0.075, 0.82, 0.165, 1), color 250ms cubic-bezier(0.075, 0.82, 0.165, 1) 100ms;
+  
 }
 .contacts-section-lnk {
   padding: 3px 15px;
-  color: #b2b2b2;
+  color: #ffffffb8;
   background-color: transparent;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
+  transition: background-color 500ms cubic-bezier(0.075, 0.82, 0.165, 1), color 250ms cubic-bezier(0.075, 0.82, 0.165, 1) 100ms;
 }
 .contacts-section-lnk:hover,
 .contacts-section-lnk:focus {
-  background-color: #909090;
+  background-color: #626262;
   color: whitesmoke;
-  transition: background-color 500ms cubic-bezier(0.075, 0.82, 0.165, 1), color 250ms cubic-bezier(0.075, 0.82, 0.165, 1) 100ms;
+  
 }
 
 .tech-skills-list {
@@ -314,7 +320,7 @@ a {
   font-style: normal;
   font-size: 14px;
   line-height: 24px;
-  color: #b2b2b2;
+  color: #ffffffb8;
 }
 .soft-skills-list {
   padding: 0 0 0 17px;
@@ -329,7 +335,7 @@ a {
   font-style: normal;
   font-size: 14px;
   line-height: 24px;
-  color: #b2b2b2;
+  color: #ffffffb8;
 }
 
 .about-me-contact {
