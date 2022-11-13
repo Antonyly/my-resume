@@ -224,8 +224,12 @@ a {
   /* border: 340px; */
   padding: 70px;
 }
+.span-number{
+  margin-bottom: 30px;
+}
 .sidebar-img{
-  border-radius: 45%;
+  scale: 1.2;
+  border-radius: 50%;
   border: 1px solid whitesmoke;
 }
 .sidebar-cont{
